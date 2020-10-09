@@ -156,7 +156,6 @@ position: absolute;
   width: 80%;
   min-width: 784px;
   min-height: auto;
-  line-height: 30px;
     /*Задаём свойства для основного текста второго блока*/
 }
 
@@ -237,7 +236,7 @@ position: absolute;
 }
 
 .table__text_theme_white {
-  margin: 20px 0 0 0 ;
+  margin: 20px 0 0 0;
   /*Убираем отступы у текста светлой таблицы*/
 }
 
