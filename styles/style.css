@@ -18,6 +18,7 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
+  z-index: 1;
   /* задаём стили для первого блока сайта*/
 }
 
@@ -59,7 +60,7 @@
 
 .kaufman {
   position: relative;
-  background: #1f1f1f url(../images/kaufman-triangle.svg) no-repeat 933px 0%/877px;
+  background: #1f1f1f;
   overflow: hidden;
   z-index: 0;
   /*Свойства пятого блока
@@ -91,6 +92,7 @@
   padding-left: 64px;
   align-self: center;
   margin: 0;
+  z-index: 2;
   /*Задаём свойства для главного заколовка*/
 }
 
@@ -103,6 +105,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 2;
 /*Задаём свойства для подзаколовка*/
 }
 
@@ -259,7 +262,6 @@
 }
 
 .table_theme_dark {
-  
   padding: 0;
   margin: 0 auto 90px;
 }
@@ -269,7 +271,20 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 1;
 }
+
+.kaufman__triangle {
+  position: absolute;
+  top: 0;
+  right: -210px;
+  min-width: 877px;
+  min-height: 877px;
+  background: url(../images/kaufman-triangle.svg);
+  background-size: 877px;
+  z-index: -0;
+}
+
 /* Свойства для элементов тёмной таблицы */
 .footer__columns { 
   color:  white;
@@ -279,8 +294,7 @@
   min-height: 250px;
   width: 90%;
   /*Свойства блока подвала сайта с элементами */
-  /*Для этого и создавал дополнительный класс _width, потому что не заметил, что было разделение на footer__column и footer__columns
-  Иначе width задавался всем элементам*/
+ 
 }
 
 .footer__column_content_copyright {
