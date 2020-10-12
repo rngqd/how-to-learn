@@ -63,9 +63,7 @@
   background: #1f1f1f;
   overflow: hidden;
   z-index: 0;
-  /*Свойства пятого блока
-  Позиционирование фонового изображения ведётся от левого нижнего угла. Ширина блока 1600, отнимаем ширину 
-  изображения 877 и прибавляем необходимый отступ 210, заданный брифом*/
+  /*Свойства пятого блока*/
 }
 
 .footer {
@@ -271,7 +269,6 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
-  z-index: 1;
 }
 
 .kaufman__triangle {
@@ -282,7 +279,7 @@
   min-height: 877px;
   background: url(../images/kaufman-triangle.svg);
   background-size: 877px;
-  z-index: 0;
+  z-index: -1;
 }
 
 /* Свойства для элементов тёмной таблицы */
