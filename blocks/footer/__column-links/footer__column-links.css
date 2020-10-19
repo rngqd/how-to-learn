@@ -1,0 +1,12 @@
+.footer__column-links {
+    color: #2f80ed;
+    display: block;
+    margin: 0 0 16px 0;
+    padding: 0;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    list-style: none;
+    text-decoration: none;
+    /*Свойства второго и третьего столбца элементов подвала*/
+  }
