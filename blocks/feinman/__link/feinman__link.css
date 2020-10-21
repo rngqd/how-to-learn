@@ -6,9 +6,9 @@
     font-size: 36px;
     text-decoration: none;
     color: black;
+    transition: .5s ease-out;
     /* Свойства ссылки четвёртого блока */
   }
   .feinman__link:hover {
     opacity: 0.5;
-    transition: .5s ease-out;
-}
+  }

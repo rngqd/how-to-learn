@@ -1,9 +1,0 @@
-.cards {
-    display: grid;
-    grid-template-columns: repeat(3, 240px);
-    column-gap: 100px;
-    width: 920px;
-    margin: 0 auto;
-    /* Задаём свойства таблиц*/
-  }
-  
