@@ -56,7 +56,7 @@
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column/footer__column.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
-@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
