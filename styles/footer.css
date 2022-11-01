@@ -1,67 +1,16 @@
 .footer {
-    background-color: #1f1f1f;
-    min-height: 350px;
-    color: white;
-    box-sizing: border-box;
-    padding: 60px 0 40px 0;
-    /*Свойства подвала сайта*/
-}
-
-.footer__columns {
-    color:  white;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
-    min-height: 250px;
-    width: 90%;
+    align-items: center;
+    padding: 0 50px;
+    background-color: #1f1f1f;
+    color: white;
+    box-sizing: border-box;
 }
 
 .footer__author {
-    line-height: 25px;
+    color: black;
+    line-height: 1.25;
     font-size: 18px;
     font-weight: normal;
-    /*Свойства текста с авторством*/
-}
-
-.footer__column_content_copyright {
-    display: flex;
-    flex-basis: 711px;
-    flex-direction: column;
-    justify-content: space-between;
-    /*Свойства первого столбца*/
-}
-
-.footer__column-heading {
-    margin: 0 0 20px;
-    line-height: 30px;
-    font-size: 18px;
-    font-weight: bold;
-    /*Свойства заголовков подвала*/
-}
-
-.footer__column-link {
-    color: white;
-    text-decoration: none;
-    transition: .5s ease-out;
-}
-.footer__column-link:hover {
-    opacity: 0.5;
-}
-
-.footer__column-links {
-    color: #2f80ed;
-    display: block;
-    margin: 0 0 16px 0;
-    padding: 0;
-    line-height: 30px;
-    font-size: 18px;
-    font-weight: normal;
-    list-style: none;
-    text-decoration: none;
-    /*Свойства второго и третьего столбца элементов подвала*/
-}
-
-.footer__social-icon{
-    margin: 0 10px 0 0;
-    /*Свойства иконок подвала*/
 }
