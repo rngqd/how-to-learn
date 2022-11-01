@@ -1,0 +1,65 @@
+.header {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    background-color: #f2f2f2;
+    z-index: 1;
+    overflow: hidden;
+}
+.header__link {
+    color: #2f80ed;
+    text-decoration: none;
+    transition: .5s ease-out;
+}
+.header__link:hover {
+    opacity: 0.5;
+}
+
+.header__main-illustration {
+    position: absolute;
+    width: 765px;
+    height: 608px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+    /*Задаём свойства для картинки в шапке*/
+}
+
+.header__square-pic {
+    position: absolute;
+    height: 568px;
+    width: 568px;
+    background-color:  #2f80ed;
+    top: 64px;
+    right: 0px;
+    z-index: 0;
+    /*Задаём свойства для цветного блока в шапке*/
+}
+
+.header__subtitle {
+    position: absolute;
+    left: 64px;
+    bottom: 30px;
+    width: 388px;
+    margin: 0px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    z-index: 2;
+    /*Задаём свойства для подзаколовка*/
+}
+.header__title {
+    font-size: 102px;
+    font-weight: bold;
+    width: 730px;
+    line-height: 96px;
+    padding-left: 64px;
+    align-self: center;
+    margin: 0;
+    z-index: 2;
+    /*Задаём свойства для главного заколовка*/
+}

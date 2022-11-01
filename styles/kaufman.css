@@ -1,0 +1,18 @@
+.kaufman {
+    position: relative;
+    background: #1f1f1f;
+    overflow: hidden;
+    z-index: 0;
+    /*Свойства пятого блока*/
+}
+
+.kaufman__triangle {
+    position: absolute;
+    top: 0;
+    right: -210px;
+    min-width: 877px;
+    min-height: 877px;
+    background: url(../images/kaufman-triangle.svg);
+    background-size: 877px;
+    z-index: -1;
+}
